@@ -5,14 +5,13 @@ import Contacts from './pages/Contacts';
 import Home from './pages/Home';
 import ProjectPages from './pages/ProjectPages';
 import Projects from './pages/Projects';
-import Header from './component/header/Header';
 
 function App() {
 	return (
 		<div className='App'>
 			<Router>
 				<Navbar />
-				<Header />
+				<Home />
 				<Routes>
 					<Route>
 						<Route path='/' element={<Home />} />
