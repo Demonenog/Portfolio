@@ -10,6 +10,9 @@ import project03Big from './../../img/projects/WA-big.jpg';
 import project04 from './../../img/projects/Search.jpg';
 import project04Big from './../../img/projects/Search-big.jpg';
 
+import project05 from './../../img/projects/Port.jpg';
+import project05Big from './../../img/projects/Port-big.jpg';
+
 const projects = [
 	{
 		title: 'React Quiz App',
@@ -42,6 +45,13 @@ const projects = [
 		skills: 'React',
 		gitHubLink:
 			'https://github.com/Demonenog/React_project/tree/main/Search_Filter/Search_final_version',
+	},
+	{
+		title: 'Portfolio',
+		img: project05,
+		imgBig: project05Big,
+		skills: 'React ',
+		gitHubLink: 'https://github.com/Demonenog/Portfolio',
 	},
 ];
 
