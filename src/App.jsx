@@ -11,7 +11,6 @@ function App() {
 		<div className='App'>
 			<Router>
 				<Navbar />
-				<Home />
 				<Routes>
 					<Route>
 						<Route path='/' element={<Home />} />
@@ -22,11 +21,6 @@ function App() {
 				</Routes>
 				<Footer />
 			</Router>
-
-			{/* <Home /> */}
-			{/* <Projects /> */}
-			{/* <ProjectPages /> */}
-			{/* <Contacts /> */}
 		</div>
 	);
 }
