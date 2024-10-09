@@ -9,9 +9,9 @@ import Projects from './pages/Projects';
 function App() {
 	return (
 		<div className='App'>
+			<Home />
 			<Router>
 				<Navbar />
-				<Home />
 				<Routes>
 					<Route>
 						<Route path='/' element={<Home />} />
