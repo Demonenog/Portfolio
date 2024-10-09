@@ -1,0 +1,59 @@
+.nav {
+	color: var(--white);
+	letter-spacing: normal;
+	padding: 20px 0;
+	/* background: transparent; */
+}
+
+.nav-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 30px;
+
+	/* Для мобилки, отспут между рядами*/
+	row-gap: 20px;
+	flex-wrap: wrap;
+}
+
+.logo {
+	color: #9bd14a;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.nav-list__link {
+	color: var(--white);
+}
+
+.nav-list__item:active {
+	position: relative;
+	top: 1px;
+}
+
+.nav-list__item {
+	position: relative;
+}
+
+.nav-list__link::before {
+	content: '';
+	background-color: #9bd14a;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 0;
+	height: 2px;
+	transition: 0.3s;
+}
+
+.nav-list__link:hover::before {
+	width: 100%;
+}

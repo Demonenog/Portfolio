@@ -1,0 +1,40 @@
+@import './component/styles/reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+
+/* * {
+	border: 1px solid red;
+} */
+
+:root {
+	--black: #171718;
+	--white: #fff;
+	--purple: #5c62ec;
+
+	--text-color: var(--white);
+	--header-text: var(--white);
+	--accent: var(--purple);
+}
+
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: -0.5px;
+	color: var(--text-color);
+	background: url('./img/beautiful-mountains-landscape.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	min-width: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
+}
+
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
