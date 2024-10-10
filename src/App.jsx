@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+	HashRouter as Router,
+	Routes,
+	Route,
+	Navigate,
+} from 'react-router-dom';
 import Footer from './component/footer/Footer';
 import Navbar from './component/navbar/Navbar';
 import Contacts from './pages/Contacts';
@@ -17,6 +22,7 @@ function App() {
 						<Route path='/projects' element={<Projects />} />
 						<Route path='/ProjectPages/:id' element={<ProjectPages />} />
 						<Route path='/contacts' element={<Contacts />} />
+						<Route path='*' element={<Navigate to='/' replace />} />
 					</Route>
 				</Routes>
 				<Footer />

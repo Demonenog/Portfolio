@@ -2,7 +2,7 @@
 	"name": "port-new",
 	"private": true,
 	"version": "0.0.0",
-	"type": "module",
+	"homepage": "https://demonenog.github.io/Portfolio",
 	"scripts": {
 		"dev": "vite",
 		"predeploy": "npm run build",
