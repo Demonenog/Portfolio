@@ -16,11 +16,12 @@ import project05Big from './../../img/projects/Port-big.jpg';
 const projects = [
 	{
 		title: 'React Quiz App',
-		skills: 'React ',
+		skills: 'React',
 		img: project01,
 		imgBig: project01Big,
 		gitHubLink:
 			'https://github.com/Demonenog/React_project/tree/main/Quiz_App/Qa_final_version',
+		gitHubTest: 'https://demonenog.github.io/React_Qa/',
 	},
 	{
 		title: 'Todo List',
@@ -29,14 +30,16 @@ const projects = [
 		skills: 'React ',
 		gitHubLink:
 			'https://github.com/Demonenog/React_project/tree/main/Todo/Todo_final_version',
+		gitHubTest: 'https://demonenog.github.io/ReactTest/',
 	},
 	{
 		title: 'Weather App',
 		img: project03,
 		imgBig: project03Big,
-		skills: 'React',
+		skills: 'React, API',
 		gitHubLink:
 			'https://github.com/Demonenog/React_project/tree/main/Wa/Wa_final_version',
+		gitHubTest: 'https://demonenog.github.io/React_Weather_app/',
 	},
 	{
 		title: 'Search Filter',
@@ -45,6 +48,7 @@ const projects = [
 		skills: 'React',
 		gitHubLink:
 			'https://github.com/Demonenog/React_project/tree/main/Search_Filter/Search_final_version',
+		gitHubTest: 'https://demonenog.github.io/React_Search/',
 	},
 	{
 		title: 'Portfolio',
@@ -52,6 +56,7 @@ const projects = [
 		imgBig: project05Big,
 		skills: 'React ',
 		gitHubLink: 'https://github.com/Demonenog/Portfolio',
+		gitHubTest: 'https://demonenog.github.io/Portfolio/#/',
 	},
 ];
 

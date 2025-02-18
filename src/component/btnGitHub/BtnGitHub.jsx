@@ -5,10 +5,12 @@ import imgGit from './../../img/icons/gitHub.svg';
 
 const BtnGitHub = ({ Link }) => {
 	return (
-		<a href={Link} target='_blank' rel='noreferrer' className='btn-outline'>
-			<img src={imgGit} alt='' />
-			GitHub repo
-		</a>
+		<>
+			<a href={Link} target='_blank' rel='noreferrer' className='btn-outline'>
+				<img src={imgGit} alt='' />
+				Github.io check
+			</a>
+		</>
 	);
 };
 

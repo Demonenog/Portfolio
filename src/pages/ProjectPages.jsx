@@ -31,7 +31,8 @@ const ProjectPages = () => {
 						</p>
 					</div>
 					{/* {project.gitHubLink && <BtnGitHub link='https://github.com' />} */}
-					{project.gitHubLink && <BtnGitHub Link={project.gitHubLink} />}
+					{/* {project.gitHubLink && <BtnGitHub Link={project.gitHubLink} />} */}
+					{project.gitHubTest && <BtnGitHub Link={project.gitHubTest} />}
 				</div>
 			</div>
 		</main>
